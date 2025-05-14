@@ -3,5 +3,6 @@
     "codespace",
     "Codespace",
     "devcontainer"
-  ]
+  ],
+  "websearch.preferredEngine": "bing"
 }
