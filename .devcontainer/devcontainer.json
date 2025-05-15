@@ -8,12 +8,24 @@
   "customizations": {
       "vscode": {
       "extensions": [
-          "github.copilot@insiders", // GitHub Copilot + Copilot Chat insiders
+          "github.copilot-chat", // GitHub Copilot + Copilot Chat insiders
+          "github.copilot",
           "markdown-lint.markdownlinter", // Markdown linter
           "bierner.markdown-mermaid", // Mermaid Markdown extension
           "bitlang.cobol", // COBOL extension
           "ms-python.python", // Python extension
-          "ms-python.vscode-pylance" // Pylance extension for Python
+          "ms-python.vscode-pylance", // Pylance extension for Python         
+          "ms-vscode.vscode-node-azure-pack",
+          "ms-azuretools.vscode-bicep",
+          "github.copilot-workspace",
+          "ms-vscode.live-server",
+          "azuretools.vscode-azure-github-copilot",
+          "mermaidchart.vscode-mermaid-chart",
+          "ms-vscode.azurecli" // GitHub Copilot Chat
       ]}
+      
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/azure-cli:1": {}
   }
 }
